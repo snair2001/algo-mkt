@@ -18,7 +18,7 @@ function App() {
   let paths = []
 
   for (let i = 1; i <= 5; i++) {
-    paths.push(require(`../images/${i}.png`))
+    paths.push(require(`../images/${i}.jpg`))
   }
 
   useEffect(() => {
